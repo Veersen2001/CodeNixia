@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 // Third-Party
 app.use(
   cors({
-    origin: ['https://code-nixia.vercel.app/'],
+    origin: [process.env.PORT ],
     credentials: true,
   })
 );
