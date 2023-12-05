@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 // Third-Party
 app.use(
   cors({
-    origin: [process.env.PORT ],
+    origin: [5000] ,
     credentials: true,
   })
 );
