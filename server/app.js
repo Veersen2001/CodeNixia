@@ -15,10 +15,10 @@ app.use(express.urlencoded({ extended: true }));
 // Third-Party
 app.use(
   cors({
-    origin: [5000] ,
+    origin: ["https://code-nixia-irwx.vercel.app./"], //5000
     credentials: true,
   })
-);
+)
 app.use(morgan('dev'));
 app.use(cookieParser());
 
