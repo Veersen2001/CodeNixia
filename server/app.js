@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 // Third-Party
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL], //5000
+    origin: ["https://code-nixia-git-main-veersen2001.vercel.app/"], //5000
     credentials: true,
   })
 )
